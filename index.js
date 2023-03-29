@@ -24,7 +24,7 @@ const port = 3080
 
 app.post('/', async (req, res) => {
     const {message} = req.body
-    // console.log(message)
+    // console.log(message, "message")
 
     const response = await openai.createCompletion({
         model: "text-davinci-003",
