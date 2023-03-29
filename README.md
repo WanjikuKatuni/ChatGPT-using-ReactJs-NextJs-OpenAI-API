@@ -11,3 +11,10 @@ This is a version of the chatGPT application built on the latest React JS, ontop
 - Cors
 - Morgan
 - normalise
+
+## Set up
+- Clone the repository and set it up on your local file
+- Visit https://platform.openai.com/ to set-up your api key
+- run npm start to start react server
+- run node index.js 
+- query the ChatGPT application to your liking
